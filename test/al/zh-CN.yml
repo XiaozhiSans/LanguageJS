@@ -1,0 +1,8 @@
+language: zh-CN
+
+data:
+  helloLanguageJS: 你好,language.js!
+  langType: "语言文件类型: yml+al"
+  xslType: xsl测试页
+  githubRepo: GitHub仓库
+  whatIsAl: 什么是 AutoLang(al)?
