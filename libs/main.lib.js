@@ -15,7 +15,7 @@ export const language = {
 		})();
 		findEle("html").lang = this.lang;
 	},
-	change(lang) {this.set(lang);},
+	change(lang) {this.set(lang);this.innerTexts(lang, this.languages);},
 	getVer() {
 		let ver = this.version;
 		return `v${ver.name.join('.')}-${ver.type}-${ver.build}`;
@@ -41,7 +41,7 @@ export const language = {
 	},
 	init() {
 		let lang = navigator.language.split('-')[0] || "en";
-		this.start(lang);
+		this.set(lang);
 	},
 	innerTexts(target, content) {
 		let mode = (this.cfg.supportAl)? content["type"] || "al": "xsl";
@@ -63,7 +63,6 @@ export const language = {
 		let date = new Date();
 		date.setDate(date.getDate() + 7);
 		document.cookie = `lang=${lang}; expires=${date}`;
-		this.innerTexts(lang, this.languages);
 	},
 	version: {
 		name: [0, 1, 0],
