@@ -11,13 +11,13 @@ English | [简体中文](./README-zh.md)
 # *language.js*
 
 [![repo size](https://img.shields.io/github/repo-size/XiaozhiSans/languagejs?style=flat-square&color=hotpink&labelColor=black&logoColor=hotpink&logo=github)](#languagejs)
-[![test page](https://img.shields.io/github/actions/workflow/status/XiaozhiSans/languagejs/deploy-test-pages.yml?style=flat-square&color=yellow&label=test%20page&labelColor=black&logoColor=%23eeeeac&logo=github )](https://xsawa.dev.tc/languagejs/)
-[![github tag](https://img.shields.io/github/v/tag/XiaozhiSans/languagejs?style=flat-square&color=hotpink&labelColor=black&logo=github )](https://github.com/XiaozhiSans/languagejs/tags)
-[![jsdelivr hits](https://img.shields.io/jsdelivr/gh/hm/XiaozhiSans/languagejs?style=flat-square&color=orange&labelColor=black&logoColor=orange&logo=jsdelivr )](https://www.jsdelivr.com/package/gh/XiaozhiSans/languagejs)
+[![test page](https://img.shields.io/github/actions/workflow/status/XiaozhiSans/languagejs/deploy-test-pages.yml?style=flat-square&color=yellow&label=test%20page&labelColor=black&logoColor=%23eeeeac&logo=github)](https://xsawa.dev.tc/languagejs/)
+[![github tag](https://img.shields.io/github/v/tag/XiaozhiSans/languagejs?style=flat-square&color=hotpink&labelColor=black&logo=github)](https://github.com/XiaozhiSans/languagejs/tags)
+[![jsdelivr hits](https://img.shields.io/jsdelivr/gh/hm/XiaozhiSans/languagejs?style=flat-square&color=orange&labelColor=black&logoColor=orange&logo=jsdelivr)](https://www.jsdelivr.com/package/gh/XiaozhiSans/languagejs)
 
 the *`language.js`* can bring mult-languages to your pages
 
-the *`language.js`* still in alpha test, welcome devlopers [join our dev](https://github.com/XiaozhiSans/fork)!
+the *`language.js`* still in alpha test, welcome devlopers [join our dev](https://github.com/XiaozhiSans/languagejs/fork)!
 
 [view test page](https://xsawa.dev.tc/languagejs/)
 
