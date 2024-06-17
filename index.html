@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>test page</title>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<style>
+		body {margin: 0; background-color: #000;}
+		i {color: #fff;position: fixed;z-index: 2;pointer-events: none;}
+		iframe {width: calc(80vw); height: calc(90vh); border: none;}
+	</style>
+	<script type="module">
+		import {language} from "./libs/main.lib.js";
+		document.addEventListener("DOMContentLoaded", document.querySelector("[ver]").innerHTML = language.getVer());
+	</script>
+	<body>
+		<i>languagejs <span ver>vLOADING...</span> init</i>
+		<iframe title="testPage" src="./test.html"></iframe>
+	</body>
+</html>
