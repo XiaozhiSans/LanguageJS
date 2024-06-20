@@ -30,12 +30,14 @@ the *`language.js`* still in alpha test, welcome devlopers [join our dev](https:
 just add these code to last line of your `html>body`
 
 ```html
-<script type="module" src="https://fastly.jsdelivr.net/gh/XiaozhiSans/languagejs/main.init.min.js"></script>
+<script type="module" src="https://fastly.jsdelivr.net/gh/XiaozhiSans/languagejs/init.min.js"></script>
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", () => {
-		language.cfg.languages = `${your_languages_file_path.json}`;
-		// mult language files just like this: {en:"./lang/en-US.json",zh:"./lang/zh-CN.json"};
-		language.start();
+		language.regFile("./languages.yml");
+		/**
+		 * or:
+		 * language.regFiles("./zh.yml", "./en.yml", ...);
+		 */
 	});
 </script>
 ```

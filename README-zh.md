@@ -30,12 +30,14 @@
 只需要把这些代码加入你的 `html>body` 最后一行:
 
 ```html
-<script type="module" src="https://fastly.jsdelivr.net/gh/XiaozhiSans/languagejs/main.init.min.js"></script>
+<script type="module" src="https://fastly.jsdelivr.net/gh/XiaozhiSans/languagejs/init.min.js"></script>
 <script type="text/javascript">
 	document.addEventListener("DOMContentLoaded", () => {
-		language.cfg.languages = `${你的语言文件路径.json}`;
-		// 如果有多个语言文件就像这样: {en:"./lang/en-US.json",zh:"./lang/zh-CN.json"};
-		language.start();
+		language.regFile("./languages.yml");
+		/**
+		 * 或者:
+		 * language.regFiles("./zh.yml", "./en.yml", ...);
+		 */
 	});
 </script>
 ```

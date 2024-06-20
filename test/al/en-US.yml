@@ -1,8 +1,0 @@
-language: zh-CN
-
-data:
-  helloLanguageJS: Hello, language.js!
-  langType: the type of language file(s) is yml+al
-  xslType: type xsl test page
-  githubRepo: GitHub Repo
-  whatIsAl: What is the AutoLang(al)?
